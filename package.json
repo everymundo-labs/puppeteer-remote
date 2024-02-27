@@ -1,0 +1,21 @@
+{
+  "name": "puppeteer-remote",
+  "version": "0.0.0",
+  "description": "Example on how to run a browser that is ready to be connected by a puppeteer client remotely",
+  "main": "app.mjs",
+  "scripts": {
+    "start": "node --experimental-modules app.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "puppeteer",
+    "browser",
+    "remote"
+  ],
+  "author": "Daniel Santana <git@danielsantana.net>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^22.3.0"
+  }
+}

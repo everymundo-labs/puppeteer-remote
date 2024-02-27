@@ -1,0 +1,3 @@
+#!/bin/bash
+set +x
+lsof -i :21222 -t
