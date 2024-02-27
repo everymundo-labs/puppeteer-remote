@@ -1,4 +1,4 @@
-import puppeteer from 'puppeteer'
+import puppeteer from 'puppeteer-core'
 
 export const browser = await puppeteer.connect({
   // browserWSEndpoint: "ws://0.0.0.0:21222/devtools/browser/b5c74c1e-1cb7-4dad-bf8d-dd43ba782fea"
